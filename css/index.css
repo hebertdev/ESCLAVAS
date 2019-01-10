@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppins,sans-serif;
+
+}
+
+
+
+header{
+	width: 100%;
+	height: 130px;
+	background: #f03b4c;
+	position: fixed;
+	transition: all 0.5s;
+	z-index: 5;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.max-header{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.ulmenu{
+	display: flex;
+	transition: all 0.5s;
+}
+
+.ulmenu li{
+	list-style: none;
+	color: white;
+	padding: 5px 10px;
+
+}
+
+.ulmenu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.ulmenu li a:hover{
+	color:#FFDC00;
+}
+
+.container-menu{
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+	transition: all 0.5s;
+}
+
+
+.storbody{
+	height: 1550px;
+}
+
+
+.container-body-presentations{
+	max-width: 1200px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-container-body-presentations{
+	/*border:1px solid grey;*/
+	width: 48%;
+	
+}
+
+
+.container-events{
+	width: 100%;
+	height: 200px;
+	background: #1d386a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.txtevents{
+	color: #ffea00;
+	color: #1d386a;
+	text-align: center;
+	padding: 10px;
+}
+
+.ul-academic{
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+.container-events-noticias-all{
+	width: 100%;
+	background: #f3f3f6;
+}
+
+.container-events-noticias{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+
+.subcontainer-events{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+
+
+.item-events{
+	width: 250px;
+	background: white;
+	margin: 10px;
+}
+
+.container-item-event-img{
+	width: 250px;
+	/*border:1px solid grey;*/
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+}
+
+
+
+.container-item-event-img img{
+	height: 100%;
+}
+
+
+.container-item-event-body{
+	width: 95%;
+	height: 183px;
+	max-height: 183px;
+	min-height: 183px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.txt-body-events{
+	font-size: 13px;
+}
+
+
+.container-events-vermas{
+	width: 100%;
+	text-align: center;
+	background:  #1d386a;
+	margin: 2px 0;
+	color: white;
+
+}
+
+
+
+.container-ubicacion{
+	width: 100%;
+
+}
+
+.mapa-ubicacion{
+	width: 100%;
+}
+
+
+
+footer{
+	width: 100%;
+	background:linear-gradient(90deg, #f03b4c 0, #ed2e50 25%, #c43946);
+}
+
+
+.container-footer{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+
+.sub-container-footer{
+	width: 100%;
+	max-width: 380px;
+	margin: 20px auto;
+}
+
+.sub-container-footer h3{
+	color: white;
+	text-align: center;
+
+}
+
+.sub-container-footer p{
+	color: white;
+	text-align: center;
+
+}
+
+.ul-icons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.iconossocial{
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	padding: 10px;
+}
+
+.icon-menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*TODO SOBRE EL RESPONSIVE DESIGN LANDING*/
+@media screen and (max-width: 1200px){
+
+	.ulmenu{
+		position: fixed;
+		left: 0;
+		background: #1d386a;
+		top: 0;
+		height: 100vh;
+		max-width: 290px;
+		display: block;
+		border-right: 1px solid rgba(0,0,0,0.2);
+		transition: all 0.5s;
+		left: -400px;
+	}
+
+	.entrarul{
+		left: 0;
+	}
+
+	.ulmenu li{
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		display: block;
+		height: 60px;
+		border-bottom: 1px solid rgba(0,0,0,0.3)
+
+	}
+
+	.ulmenu li a{
+		line-height: 60px;
+	}
+
+	.icon-menu{
+		color: white;
+		margin: 0 10px;
+		font-size: 30px;
+		padding: 5px;
+		display: block;
+		transition: all 0.5s;
+	}
+
+
+	.container-body-presentations{
+		display: block;
+	}
+
+	.sub-container-body-presentations{
+		width: 90%;
+		margin: auto;
+	}
+
+	.containervideo{
+		width: 100%;
+	}
+
+	.ul-academic{
+		display: block;
+	}
+
+	.subcontainer-events{
+		overflow: auto;
+	}
+}
